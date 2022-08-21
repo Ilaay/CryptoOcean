@@ -1,0 +1,16 @@
+﻿@model List<FullCryptocurrencyInfo>
+@{
+	var BTC = @Model.Where(i => i.Symbol == "BTC").FirstOrDefault();
+}
+
+@{
+	ViewData["Title"] = "Ocean Index";
+}
+
+<div class="row">
+	<div class="column text-light">
+		<h3>Name: @BTC.Name</h3>
+		<h3>Price: @BTC.Price</h3>
+		<h3>Percent change per day: @BTC.PercentChangePerDay%</h3>
+	</div>
+</div>

@@ -1,0 +1,40 @@
+body {
+	background-image: linear-gradient(to right, #6a82fb, #00008B );
+}
+
+.row {
+	display: flex;
+	text-align: center;
+}
+
+.column {
+	flex: 33%;
+	height: 500px;
+	border: 2px solid white;
+	font-size: 40px;
+	text-align: center;
+}
+
+.tab {
+	tab-size: 4;
+}
+
+.crypto-top-block {
+	display: inline-block;
+	text-align: center;
+	width: 49%;
+	height: 20%;
+	margin-bottom: 20px;
+}
+
+.crypto-top-element {
+	width: 49%;
+	height: 30%;
+	display: inline-block;
+	margin-bottom: 50px;
+	border: 2px solid white;
+}
+
+crypto-top-grid {
+	border: 2px solid white;
+}
